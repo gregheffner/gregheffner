@@ -21,3 +21,5 @@ Some of my interests include:
 - **Competitions & Challenges**: Capture the Flag, King of the Mountain, Advent of Code
 
 Feel free to explore my repositories and connect with me.
+
+![](https://komarev.com/ghpvc/?username=gregheffner)
