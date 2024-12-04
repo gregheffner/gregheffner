@@ -1,6 +1,6 @@
 ## About Me
 
-### Military Service
+### Military Veteran
 I served in the U.S. Army, specializing in network communications. As a Network Switching Systems Operator-Maintainer, I ensured seamless communication across military installations specializing in Air Defense Artillery technologies. My attention to detail and troubleshooting skills were critical in maintaining secure connections during deployments and training exercises.
 
 ### Tech Enthusiast
