@@ -22,8 +22,8 @@ Some of my interests include:
 
 Feel free to explore my repositories and connect with me.
 
-![](https://komarev.com/ghpvc/?username=gregheffner&base=500)
-<!-- Base 500 is from previous loads  -->
+![](https://komarev.com/ghpvc/?username=gregheffner)
+<!-- View tracker since 12/04/24  -->
 <br>
 <p align="left">
     <img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gregheffner&layout=compact&theme=tokyonight">
