@@ -24,5 +24,8 @@ Feel free to explore my repositories and connect with me.
 
 ![](https://komarev.com/ghpvc/?username=gregheffner&base=500)
 <!-- Base 500 is from previous loads  -->
-<img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gregheffner&layout=compact&theme=tokyonight">
-<img height="190" src="https://github-readme-stats.vercel.app/api?username=gregheffner&show_icons=true&theme=tokyonight">
+<br>
+<p align="left">
+    <img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gregheffner&layout=compact&theme=tokyonight">
+    <img height="190" src="https://github-readme-stats.vercel.app/api?username=gregheffner&show_icons=true&theme=tokyonight">
+</p>
