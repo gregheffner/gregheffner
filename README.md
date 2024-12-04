@@ -22,4 +22,4 @@ Some of my interests include:
 
 Feel free to explore my repositories and connect with me.
 
-![](https://komarev.com/ghpvc/?username=gregheffner)
+![](https://komarev.com/ghpvc/?username=gregheffner&base=500)
