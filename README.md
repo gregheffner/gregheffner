@@ -9,7 +9,7 @@ I served in the U.S. Army, specializing in network communications. As a Network 
 Beyond my military role, my passion continued to lie in technology. I am an avid learner, keeping up with the latest trends in networking, cybersecurity, and cloud computing. Finding the root cause of technical problems is my forte. I think outside the box and make data-driven decisions.
 
 ### Blogging
-I have started to write blogs about different tech topics to include K8s, DNS, docker, ansible... Please check it out: [greg.heffner.live](https://greg.heffner.live)
+I have started to write blogs about different tech topics to include K8s, DNS, docker, ansible... Please check it out: [greg.heffner.live](https://greg.heffner.live/blog.html)
 
 ### Interests
 Some of my interests include:
