@@ -1,10 +1,9 @@
 <p align="left">
     <img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gregheffner&layout=compact&theme=tokyonight">
     <img height="190" src="https://github-readme-stats.vercel.app/api?username=gregheffner&show_icons=true&theme=tokyonight">
+</p>
 ![](https://komarev.com/ghpvc/?username=gregheffner)
 <!-- View tracker since 12/04/24  -->
-</p>
-
 ## About Me
 
 ### Military Veteran
