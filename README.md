@@ -3,8 +3,8 @@
     <img height="190" src="https://github-readme-stats.vercel.app/api?username=gregheffner&show_icons=true&theme=tokyonight">
 </p>
 
-![](https://komarev.com/ghpvc/?username=gregheffner&base=500)
-<!-- Base 500 is from previous loads  -->
+![](https://komarev.com/ghpvc/?username=gregheffner)
+<!-- Started 12/04/24  -->
 
 ## About Me
 
