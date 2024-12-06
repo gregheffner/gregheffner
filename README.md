@@ -3,6 +3,13 @@
     <img height="190" src="https://github-readme-stats.vercel.app/api?username=gregheffner&show_icons=true&theme=tokyonight">
 </p>
 
+![Blogger](https://img.shields.io/badge/Blogger-FF5722?style=for-the-badge&logo=blogger&logoColor=white)
+![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)
+![Playstation 5](https://img.shields.io/badge/Playstation%205-003791?style=for-the-badge&logo=playstation-5&logoColor=white)
+![Apple Music](https://img.shields.io/badge/Apple_Music-9933CC?style=for-the-badge&logo=apple-music&logoColor=white)
+![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
+
+
 ![](https://komarev.com/ghpvc/?username=gregheffner)
 <!-- Started 12/04/24  -->
 
