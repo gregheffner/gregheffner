@@ -17,6 +17,9 @@
 ![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/kubernetes-326ce5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Argo CD](https://img.shields.io/badge/argo%20cd-fb4fa7?style=for-the-badge&logo=argo&logoColor=white)
+![Ansible](https://img.shields.io/badge/ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
+![Datadog](https://img.shields.io/badge/datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white)
+![Fail2Ban](https://img.shields.io/badge/fail2ban-00AEEF?style=for-the-badge&logo=fail2ban&logoColor=white)
 
 
 ![](https://komarev.com/ghpvc/?username=gregheffner)
