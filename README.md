@@ -1,15 +1,15 @@
 <div align="center">
 
 # 👋 Hey there! I'm Greg Heffner
-### Welcome to my corner of the automation universe! 
 
-I'm a **Senior IT Operations Leader & Infrastructure Automation Architect** who believes that the best technology solutions come with a side of good humor and great collaboration.
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2E9EF7&center=true&vCenter=true&width=800&lines=Senior+IT+Operations+Leader+%26+Architect;Infrastructure+Automation+Specialist;20%2B+Years+Enterprise+Experience;AI-Powered+Infrastructure+Automation;DevOps+%26+SRE+Excellence)](https://greg.heffner.live)
 
-**Enterprise Technology Operations | U.S. Military Veteran | Automation Evangelist**
+**🇺🇸 Enterprise Technology Operations | U.S. Military Veteran | Automation Evangelist 🚀**
 
-[![Website](https://img.shields.io/badge/Blog-greg.heffner.live-blue?style=flat-square&logo=globe)](https://greg.heffner.live)
-[![Email](https://img.shields.io/badge/Email-Contact-red?style=flat-square&logo=gmail)](mailto:main.plan5783@fastmail.com)
-[![Profile Views](https://komarev.com/ghpvc/?username=gregheffner&color=blue&style=flat-square)](https://github.com/gregheffner)
+[![Website](https://img.shields.io/badge/🌐_Blog-greg.heffner.live-0077B5?style=for-the-badge&logoColor=white)](https://greg.heffner.live)
+[![Email](https://img.shields.io/badge/📧_Email-Contact_Me-EA4335?style=for-the-badge&logoColor=white)](mailto:main.plan5783@fastmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow_Me-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gregheffner)
+[![Profile Views](https://komarev.com/ghpvc/?username=gregheffner&color=blueviolet&style=for-the-badge&label=Profile+Views)](https://github.com/gregheffner)
 
 </div>
 
@@ -17,10 +17,14 @@ I'm a **Senior IT Operations Leader & Infrastructure Automation Architect** who 
 
 <div align="center">
 
-### 📊 GitHub Analytics
+## 📊 GitHub Analytics & Achievements
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=gregheffner&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gregheffner&layout=compact&langs_count=8&theme=tokyonight"/>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=gregheffner&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=gregheffner&layout=compact&langs_count=8&theme=tokyonight&hide_border=true)
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=gregheffner&theme=tokyonight&hide_border=true)](https://github.com/gregheffner)
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=gregheffner&theme=tokyonight&no-frame=true&row=1&column=6)](https://github.com/gregheffner)
 
 </div>
 
@@ -28,29 +32,45 @@ I'm a **Senior IT Operations Leader & Infrastructure Automation Architect** who 
 
 ## 🚀 About Me
 
-> I architect automation solutions that eliminate manual toil and ensure high availability for mission-critical systems. Specializing in transforming reactive IT operations into predictive, self-healing infrastructure.
+<div align="center">
+
+> *"I architect automation solutions that eliminate manual toil and ensure high availability for mission-critical systems. Specializing in transforming reactive IT operations into predictive, self-healing infrastructure."*
+
+</div>
 
 ```yaml
-role: "Senior IT Operations Leader & Infrastructure Automation Architect"
-experience: "20+ years Enterprise IT"
-location: "United States 🇺🇸"
-focus: "AI-Powered Infrastructure Automation"
-blog: "https://greg.heffner.live/blog.html"
+👤 Profile:
+  role: "Senior IT Operations Leader & Infrastructure Automation Architect"
+  experience: "20+ years Enterprise IT"
+  location: "United States 🇺🇸"
+  specialization: "AI-Powered Infrastructure Automation"
+  blog: "https://greg.heffner.live/blog.html"
+  
+💡 Mission:
+  - Eliminate manual operational toil through intelligent automation
+  - Transform reactive operations into predictive, self-healing systems
+  - Build scalable, resilient infrastructure for mission-critical workloads
+  - Champion DevOps culture and operational excellence
 ```
 
 ### 🎯 Leadership & Impact
 
-- 🏗️ **Platform Operations**: Leading multi-platform infrastructure operations
-- 📊 **Monitoring & Observability**: Implementing comprehensive monitoring solutions  
-- ⚡ **Automation**: Developing solutions to reduce manual operational overhead
-- 🚀 **Performance**: Implementing proactive monitoring and incident response
-- ️ **Security**: Leading security automation and compliance initiatives
+<div align="center">
+
+| 🏗️ **Infrastructure** | 📊 **Observability** | ⚡ **Automation** |
+|:---------------------|:-------------------|:----------------|
+| Multi-platform operations leadership | Comprehensive monitoring solutions | Reducing manual overhead |
+| Kubernetes & container orchestration | Real-time performance analytics | Self-healing infrastructure |
+| Cloud-native architecture | Incident detection & response | CI/CD pipeline optimization |
+
+</div>
 
 ---
 
 ## 🛠️ Technology Stack & Expertise
 
 ### 🔥 Core Technologies
+
 ![Kubernetes](https://img.shields.io/badge/kubernetes-326ce5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Ansible](https://img.shields.io/badge/ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -109,86 +129,138 @@ blog: "https://greg.heffner.live/blog.html"
 
 ---
 
-## 📝 Technical Blog & Open Source
-
-**Blog**: [greg.heffner.live](https://greg.heffner.live/blog.html)
-
-### Recent Posts (2025)
-- **[Model Context Protocol (MCP)](https://greg.heffner.live/blog.html)** - AI-human collaboration
-- **[Agentic AI - The Future of Automation](https://greg.heffner.live/blog.html)** - Advanced AI automation
-- **[Pi-hole Advanced Use Cases](https://greg.heffner.live/blog.html)** - DNS security strategies
-- **[CI/CD with Argo CD](https://greg.heffner.live/blog.html)** - GitOps automation
-- **[Web Security: Fail2Ban + Cloudflare](https://greg.heffner.live/blog.html)** - Edge security
-
-### Focus Areas
-- **DevOps & SRE**: Kubernetes, container security, GitOps workflows
-- **Security Automation**: Vulnerability management, compliance automation
-- **Infrastructure as Code**: Ansible, Terraform, configuration management
-- **Emerging Tech**: AI/ML integration, edge computing
-
----
-
-## 📌 Featured Projects
+## 📝 Technical Blog & Knowledge Sharing
 
 <div align="center">
 
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=gregheffner&repo=cicd&theme=tokyonight)](https://github.com/gregheffner/cicd)
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=gregheffner&repo=k8-patchNbounce&theme=tokyonight)](https://github.com/gregheffner/k8-patchNbounce)
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=gregheffner&repo=playbooks&theme=tokyonight)](https://github.com/gregheffner/playbooks)
+[![Blog](https://img.shields.io/badge/📚_Visit_My_Blog-greg.heffner.live-0077B5?style=for-the-badge)](https://greg.heffner.live/blog.html)
 
 </div>
 
-### Infrastructure & Security Tools
-- 🔐 **Certificate Management**: Automated SSL/TLS lifecycle management and monitoring
-- �️ **Security Scanning**: Vulnerability assessment and compliance reporting automation
-- � **Backup Systems**: Enterprise backup and disaster recovery automation
-- ⚡ **Load Testing**: Performance validation and capacity planning frameworks
+### 🎯 Recent Technical Posts (2025)
+
+| 📝 Article | 🔧 Technology | 💡 Key Takeaway |
+|:-----------|:--------------|:----------------|
+| **[Model Context Protocol (MCP)](https://greg.heffner.live/image/pages/2025/Sept/MCP.html)** | AI/ML Integration | Enhance AI-human collaboration by refining prompts and improving LLM interactions |
+| **[Agentic AI - The Future of Automation](https://greg.heffner.live/image/pages/2025/Sept/agenticAI.html)** | AI Automation | Discover how Agentic AI provides holistic, proactive solutions beyond traditional AI |
+| **[Pi-hole Advanced Use Cases](https://greg.heffner.live/image/pages/2025/Sept/piholeadv.html)** | Network Security | Advanced DNS security strategies using Pi-hole and Unbound for privacy and control |
+| **[CI/CD with Argo CD](https://greg.heffner.live/image/pages/2025/July/cicd.html)** | DevOps/Kubernetes | Deep dive into automating Kubernetes deployments with Argo CD and GitOps workflows |
+| **[Web Security: Fail2Ban + Cloudflare](https://greg.heffner.live/image/pages/2025/June/websecurity.html)** | Security | Strengthen web defenses by combining Fail2Ban and Cloudflare for layered security |
+
+### 📚 Content Focus Areas
+
+<div align="center">
+
+| 🎯 Category | 🔍 Topics |
+|:------------|:----------|
+| **DevOps & SRE** | Kubernetes • Container Security • GitOps Workflows • CI/CD Pipelines |
+| **Security Automation** | Vulnerability Management • Compliance Automation • Zero Trust Architecture |
+| **Infrastructure as Code** | Ansible • Terraform • Configuration Management • Policy as Code |
+| **Emerging Technologies** | AI/ML Integration • Edge Computing • Service Mesh • Observability |
+
+</div>
 
 ---
 
-## 🇺🇸 Background & Philosophy
+## 📌 Featured Projects & Contributions
 
-**U.S. Army Veteran** - Network Communications Specialist with experience in mission-critical infrastructure systems. Military background provides foundational expertise in system reliability and automation-first thinking.
+<div align="center">
+
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=gregheffner&repo=cicd&theme=tokyonight&hide_border=true)](https://github.com/gregheffner/cicd)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=gregheffner&repo=k8-patchNbounce&theme=tokyonight&hide_border=true)](https://github.com/gregheffner/k8-patchNbounce)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=gregheffner&repo=playbooks&theme=tokyonight&hide_border=true)](https://github.com/gregheffner/playbooks)
+
+</div>
+
+### 🛠️ Project Highlights
+
+| 🚀 Project | 💻 Technology Stack | 🎯 Purpose |
+|:-----------|:-------------------|:----------|
+| **[CI/CD Pipeline](https://github.com/gregheffner/cicd)** | Argo CD • Kubernetes • GitOps | Automated deployment pipeline with GitOps workflows |
+| **[K8s Patch & Bounce](https://github.com/gregheffner/k8-patchNbounce)** | Kubernetes • Bash • Automation | Zero-downtime Kubernetes node patching and maintenance |
+| **[Ansible Playbooks](https://github.com/gregheffner/playbooks)** | Ansible • YAML • IaC | Enterprise-grade infrastructure automation playbooks |
+
+### 🔧 Additional Infrastructure Tools
+
+<div align="center">
+
+| 🔐 **Security** | ⚡ **Performance** | 💾 **Operations** |
+|:----------------|:------------------|:------------------|
+| Certificate Management | Load Testing Frameworks | Backup & DR Automation |
+| Vulnerability Scanning | Capacity Planning Tools | Configuration Management |
+| Compliance Automation | Performance Monitoring | Log Aggregation Systems |
+
+</div>
+
+---
+
+## 🇺🇸 Military Background & Leadership Philosophy
+
+<div align="center">
+
+### **U.S. Army Veteran • Network Communications Specialist**
+
+*Mission-critical infrastructure systems • System reliability • Automation-first thinking*
+
+</div>
+
+### 💭 Core Philosophy
+
+<div align="center">
 
 > *"The best automation is invisible - it just works, learns, and makes everything better."*
 
-### Leadership Principles
-- **Automate Intelligently**: Eliminate human error through predictive automation
-- **Build Self-Healing Systems**: Infrastructure that adapts and recovers automatically
-- **Data-Driven Decisions**: Metrics and observability guide optimization
-- **Continuous Learning**: Stay ahead of emerging technologies
+</div>
 
----
-
-## 🎯 Current Focus
-
-- 🤖 **AI-Powered Automation**: Machine learning integration in infrastructure management
-- ☁️ **Cloud-Native Solutions**: Multi-cloud workload optimization
-- 🔒 **Security Automation**: Security-first infrastructure design patterns
-- 🌱 **Sustainable Operations**: Energy-efficient automation practices
-
----
-
-## 🤝 Connect & Collaborate
+### 🎖️ Leadership Principles
 
 <div align="center">
 
-[![Website](https://img.shields.io/badge/Blog-greg.heffner.live-blue?style=for-the-badge)](https://greg.heffner.live/blog.html)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-red?style=for-the-badge)](mailto:main.plan5783@fastmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/gregheffner)
-
-**Open to**: Technical Consulting • Automation Projects • Knowledge Sharing • DevOps Transformation
+| 🤖 **Intelligent Automation** | 🔄 **Self-Healing Systems** | 📊 **Data-Driven Decisions** | 🌱 **Continuous Learning** |
+|:------------------------------|:----------------------------|:----------------------------|:---------------------------|
+| Eliminate human error through predictive automation | Infrastructure that adapts and recovers automatically | Metrics and observability guide optimization | Stay ahead of emerging technologies |
 
 </div>
 
 ---
 
+## 🎯 Current Focus & Innovation
+
 <div align="center">
+
+| 🤖 **AI-Powered Automation** | ☁️ **Cloud-Native Solutions** | 🔒 **Security Automation** | 🌱 **Sustainable Operations** |
+|:----------------------------|:-----------------------------|:--------------------------|:------------------------------|
+| Machine learning integration in infrastructure management | Multi-cloud workload optimization | Security-first infrastructure design patterns | Energy-efficient automation practices |
+
+</div>
+
+---
+
+## 💼 Let's Collaborate!
+
+<div align="center">
+
+### 🤝 Open to Opportunities
+
+**Technical Consulting • Automation Projects • Knowledge Sharing • DevOps Transformation**
+
+[![Website](https://img.shields.io/badge/🌐_Visit_My_Blog-greg.heffner.live-0077B5?style=for-the-badge&logoColor=white)](https://greg.heffner.live/blog.html)
+[![Email](https://img.shields.io/badge/📧_Get_In_Touch-Contact_Me-EA4335?style=for-the-badge&logoColor=white)](mailto:main.plan5783@fastmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow_My_Work-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gregheffner)
+
+### ⭐ If you find my work valuable, consider starring my repositories! ⭐
+
+---
+
+### 💭 Philosophy
 
 > *"Leading the future of enterprise infrastructure through intelligent automation and operational excellence."*
 
-**⭐ If you find my work helpful, consider giving my repositories a star! ⭐**
+> *"The best automation is invisible - it just works, learns, and makes everything better."*
 
-![Made with ❤️ by Greg Heffner](https://img.shields.io/badge/Made_with_❤️_by-Greg_Heffner-red?style=for-the-badge)
+---
+
+![Made with ❤️ by Greg Heffner](https://img.shields.io/badge/Made_with_❤️_by-Greg_Heffner-blueviolet?style=for-the-badge)
+![Last Updated](https://img.shields.io/badge/Last_Updated-November_2025-blue?style=for-the-badge)
 
 </div>
