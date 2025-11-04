@@ -92,7 +92,7 @@ blog: "https://greg.heffner.live/blog.html"
 
 </details>
 
-<details>
+<details open>
 <summary><b>💻 Programming & Scripting</b></summary>
 <br>
 
@@ -103,7 +103,7 @@ blog: "https://greg.heffner.live/blog.html"
 
 </details>
 
-<details>
+<details open>
 <summary><b>🔐 Enterprise Platforms & Security</b></summary>
 <br>
 
@@ -209,10 +209,6 @@ I maintain an active technical blog at **[greg.heffner.live](https://greg.heffne
 🔧 **Technical Consulting** • 🤖 **Automation Projects** • 📚 **Knowledge Sharing** • 🚀 **DevOps Transformation**
 
 ---
-
-<div align="center">
-<img src="https://github.com/gregheffner/gregheffner/blob/main/banner.png" alt="Greg Heffner - Automation Engineer" width="100%" />
-</div>
 
 </div>
 
