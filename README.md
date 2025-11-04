@@ -1,7 +1,9 @@
 <div align="center">
 
-# 👋 Greg Heffner
-## Senior IT Operations Leader & Infrastructure Automation Architect
+# 👋 Hey there! I'm Greg Heffner
+### Welcome to my corner of the automation universe! 
+
+I'm a **Senior IT Operations Leader & Infrastructure Automation Architect** who believes that the best technology solutions come with a side of good humor and great collaboration.
 
 **Enterprise Technology Operations | U.S. Military Veteran | Automation Evangelist**
 
