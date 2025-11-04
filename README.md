@@ -24,13 +24,6 @@ I'm a **Senior IT Operations Leader & Infrastructure Automation Architect** who 
 
 </div>
 
-<div align="center">
-
-### 🔥 Contribution Streak
-[![GitHub Streak](https://streak-stats.demolab.com/?user=gregheffner&theme=tokyonight)](https://git.io/streak-stats)
-
-</div>
-
 ---
 
 ## 🚀 About Me
