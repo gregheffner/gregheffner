@@ -69,7 +69,7 @@ blog: "https://greg.heffner.live/blog.html"
 ![Datadog](https://img.shields.io/badge/datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white)
 ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
 
-<details>
+<details open>
 <summary><b>🏗️ Enterprise Infrastructure & Automation</b></summary>
 <br>
 
@@ -81,7 +81,7 @@ blog: "https://greg.heffner.live/blog.html"
 
 </details>
 
-<details>
+<details open>
 <summary><b>📊 Monitoring & Observability</b></summary>
 <br>
 
