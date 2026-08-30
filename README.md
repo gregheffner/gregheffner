@@ -1,46 +1,83 @@
 <h1 align="center">Greg Heffner</h1>
 
-<p align="center">
-  <a href="https://greg.heffner.live">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=7AA2F7&center=true&vCenter=true&width=760&lines=Vulnerability+management+%2F+security+operations;Triage+%E2%86%92+prioritize+(KEV+%2B+ATT%26CK)+%E2%86%92+remediate+%E2%86%92+verify;AI+as+the+force+multiplier%2C+not+the+pilot;The+plan+lives+in+code.+Tokens+are+money." alt="typing banner" />
-  </a>
-</p>
+<p align="center"><b>Lead analyst, enterprise vulnerability management · risk-based decisions over raw severity</b></p>
 
 <p align="center">
   <a href="https://greg.heffner.live"><img src="https://img.shields.io/badge/Nerdsense-greg.heffner.live-7AA2F7?style=for-the-badge&logo=hackthebox&logoColor=white" alt="website" /></a>
   <a href="https://greg.heffner.live/blog.html"><img src="https://img.shields.io/badge/Blog-learning_in_public-bb9af7?style=for-the-badge&logo=ghost&logoColor=white" alt="blog" /></a>
   <a href="mailto:main.plan5783@fastmail.com"><img src="https://img.shields.io/badge/Email-say_hi-c0caf5?style=for-the-badge&logo=maildotru&logoColor=white" alt="email" /></a>
-  <img src="https://komarev.com/ghpvc/?username=gregheffner&style=for-the-badge&color=414868&label=PROFILE+VIEWS" alt="profile views" />
 </p>
 
-<p align="center"><i>made to learn and have fun. I'm still learning :)</i></p>
+<p align="center"><i>20+ years of learning in production. Still learning :)</i></p>
+
+```yaml
+role:    Lead Analyst, enterprise vulnerability management
+arc:     20+ years · infrastructure → operations → security
+leads:   triage, prioritization, remediation programs. Works the queue to keep the calls honest
+style:   hands-on lead. Takes the ugly tickets, keeps a slice of the queue
+method:  weigh exposure, mitigations, and accepted risk over raw scores
+```
 
 ---
 
 ### About
 
-I live in vulnerability data. The work is straightforward to say and hard to do: find what's exposed, figure out what actually matters, and drive it to fixed across messy real-world environments. I read scan output, chase down owners, track remediation until it closes, and turn raw findings into a plan someone can act on.
+I lead vulnerability analysis for an enterprise security team. Before that I spent two decades building and running the things I now defend: networks, Linux and Windows fleets, hypervisors, load balancers, disaster recovery. I've carried the pager, led the failovers, and sat on the code-red bridge calls at 3 AM. That history is the point: **I read vulnerability data the way an operator reads it**, because I was the operator.
 
-The newer half is leaning on AI to do the boring 80% faster — summarizing noise, drafting reports, accelerating research — while I keep the 20% that needs judgment. Deterministic glue holds the workflow together; the model fills the gaps where rules can't. Clean line between the two. **The plan lives in code.** I learn most of this in public and write it down as I go.
+I lead now, and I never left the keyboard. I take a slice of the queue because it keeps my prioritization calls honest, and when something breaks I join the incident instead of waiting for the summary. When I'm interested in something I go all in, and pressure doesn't change that: I'd rather be in the trenches with the team than learn about it secondhand. The trade I hold myself to: every hard problem I take becomes one an analyst owns next time.
 
-> U.S. Army veteran — network communications. That's where the "make the comms work, then make them resilient" habit started.
+The infrastructure years taught me what a scanner can't: which box is actually load-bearing, what a "critical" finding means on a host behind three layers of mitigation, and what breaks when you patch without a plan. The security work is where that pays off.
+
+The newest layer is AI: Claude Code workflows, MCP servers, and agents doing the boring 80% (summarizing noise, drafting reports, chasing context) while I keep the 20% that needs judgment. The agent drafts, I hit send: trust earns autonomy, not the other way around. **The plan lives in code. Ansible, GitOps, agent workflows, not a wiki.** I've been learning in public on the blog since 2024, writing it down as I go.
+
+> U.S. Army veteran. Network Switching Systems, attached to a Patriot Missile battalion. "Make the comms work, then make them resilient" was the first version of everything above.
 
 ---
 
-### What I work on
+### How I think about risk
+
+CVSS tells you how bad a vulnerability *could* be. It doesn't tell you whether *you* should care. That gap is the whole job.
 
 ```text
-  scan  →  triage  →  prioritize  →  remediate  →  verify  →  (repeat, faster)
-   │         │            │              │            │
- Nessus   noise vs.    CISA KEV      Ansible at    re-scan +
- Wazuh    real risk    MITRE ATT&CK  scale         file-integrity
+CVE lands
+  │
+  ├─ In CISA KEV? Exploited in the wild?
+  ├─ Reachable past the mitigations?
+  ├─ On something that matters?
+  └─ Compensating controls in place?
+  │
+  ├─► FIX NOW, out of cycle
+  │     exploited + reachable + matters
+  ├─► MITIGATE or ACCEPT, on the record,
+  │     with a revisit date
+  └─► NORMAL PATCH CYCLE
+        everything else, and that's fine
 ```
 
-- **Vulnerability triage & remediation programs** — separating noise from real risk, tracking backlog to closed, writing findings up so engineering teams can act without a translator.
-- **KEV / ATT&CK-driven prioritization** — patch what's being exploited now, not what scores highest on paper.
-- **Remediation at scale** — Ansible patching across Ubuntu / Windows / Kubernetes, zero-downtime node reboots, GitOps.
-- **Home SOC, run for real** — Nessus for scanning, Wazuh for SIEM/XDR, plus file-integrity monitoring, Fail2Ban, AbuseIPDB and a Cloudflare WAF out front. Watching the watchers.
-- **AI as a force multiplier** — Claude Code dynamic workflows, MCP servers, skills and subagents to compress reporting and research. The model handles judgment; the glue handles everything else.
+- **Known-exploited beats theoretical-severity.** A KEV entry with a working exploit path outranks a CVSS 9.8 that nothing can reach.
+- **Attack surface is a fact, not a feeling.** External exposure, open services, and actual reachability get verified, not assumed from a host list.
+- **Accepted risk is a decision, written down.** Some findings you fix, some you mitigate, some you accept on the record and revisit. Silent backlog is none of those.
+- **The patch cycle is a feature.** Most findings belong in the normal cadence. Reserving out-of-cycle urgency for things that earn it is what keeps the org listening when you do pull the alarm.
+
+---
+
+### Where the opinions get tested
+
+The whole loop also runs at home, end to end: **Wazuh SIEM/XDR, Greenbone/OpenVAS, Trivy scanning every container image against CISA KEV daily, Ansible patching, Kubernetes + Argo CD GitOps on ESXi, Cloudflare WAF and Fail2Ban out front.** I'm scanner admin, analyst, patch team, and CAB all at once. Same method as work, nobody else to blame the process on. Running total from the daily KEV scans: zero known-exploited vulnerabilities fleet-wide.
+
+The lab is where the opinions get tested before they become advice.
+
+---
+
+### Where 20+ years went
+
+| Era | What I ran | What it taught me |
+| :-- | :-- | :-- |
+| **Army: network comms** | Tactical networks under field conditions | Comms first, resilience second |
+| **Infrastructure engineering** | Networks, Linux/Windows server fleets, hypervisors, load balancers | How systems actually fail, and where the bodies are buried |
+| **Operations leadership** | Disaster recovery, failover design, code-red bridge calls | Calm is a skill; blast radius is a design input; downtime has a dollar sign |
+| **Security: vulnerability management** | Enterprise triage, prioritization, remediation programs | Weigh severity against exposure and what the business can absorb, then make the call |
+| **Now: leading from the keyboard** | Risk-based vuln program, agentic tooling, a team to grow | Stay hands-on, and teach the judgment instead of hoarding it |
 
 ---
 
@@ -48,130 +85,72 @@ The newer half is leaning on AI to do the boring 80% faster — summarizing nois
 
 **Security Ops & Vuln Mgmt**
 
-![Nessus](https://img.shields.io/badge/Nessus-00A98F?style=for-the-badge)
+![Greenbone](https://img.shields.io/badge/Greenbone_%2F_OpenVAS-4C9A2A?style=for-the-badge)
 ![Wazuh](https://img.shields.io/badge/Wazuh_XDR-3A86FF?style=for-the-badge)
-![CISA KEV](https://img.shields.io/badge/CISA_KEV-1F3A93?style=for-the-badge)
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-C8102E?style=for-the-badge)
+![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=for-the-badge&logo=aquasecurity&logoColor=white)
 ![Cloudflare WAF](https://img.shields.io/badge/Cloudflare_WAF-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
-![Fail2Ban](https://img.shields.io/badge/Fail2Ban-D32F2F?style=for-the-badge)
-![AbuseIPDB](https://img.shields.io/badge/AbuseIPDB-1565C0?style=for-the-badge)
 
 **AI & Agents**
 
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![Agent SDK](https://img.shields.io/badge/Claude_Agent_SDK-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![Anthropic API](https://img.shields.io/badge/Anthropic_API-191919?style=for-the-badge&logo=anthropic&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP_servers-6E56CF?style=for-the-badge&logo=modelcontextprotocol&logoColor=white)
-![Skills](https://img.shields.io/badge/Skills_%26_Subagents-8B5CF6?style=for-the-badge)
 
-**Infrastructure & Automation**
+**Infrastructure & Automation** *(the foundation everything sits on)*
 
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Argo CD](https://img.shields.io/badge/Argo_CD_/_GitOps-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![VMware](https://img.shields.io/badge/VMware_ESXi-607078?style=for-the-badge)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge)
+**Languages:** Python · Bash · PowerShell
 
 ---
 
-### Currently exploring — 2026
-
-The stuff I'm actively building and writing about right now:
+### What I'm working on in 2026
 
 | Focus | What I'm doing with it |
 | :-- | :-- |
-| **Machine-speed triage** | Claude Code *dynamic workflows* that read a finding, cross-reference CISA KEV + MITRE ATT&CK, and hand back next steps instead of a wall of CVEs. Cuts MTTR without handing over the wheel. |
-| **KEV-driven prioritization** | Findings ranked by *known exploited* first, ATT&CK technique second. Severity score alone lies — exploitation in the wild doesn't. |
-| **Cheaper agents** | Pushing knowledge *down the stack* into skills and subagents so the expensive model only runs on the judgment. *Tokens are money. Start acting like it.* |
-| **MCP servers** | Wiring scanners, ticketing and dashboards into agents over Model Context Protocol so context comes to the model instead of me copy-pasting it. |
-| **Token budgeting** | Context as a resource with a price tag. `CLAUDE.md`, scoped tools, lean prompts, the right model for the job. |
+| **Risk-based triage at machine speed** | Claude Code *dynamic workflows* that read a finding, cross-reference CISA KEV + ATT&CK + actual exposure, and hand back a decision (fix now, mitigate, or normal cycle) instead of a wall of CVEs. |
+| **Cheaper agents** | Pushing knowledge *down the stack* into skills and subagents so the expensive model only runs on judgment. *Tokens are money.* |
+| **MCP everywhere** | Scanners, SIEM, dashboards and ticketing wired into agents over Model Context Protocol, so context comes to the model instead of me copy-pasting it. |
+| **False-positive economics** | A finding that isn't real still costs analyst time. One raw lab scan: **74% false positives, every single "critical" included**, mostly backport-blind version matching. Building classification that proves what's actually running before anything pages a human. |
 
 ---
 
 ### From the blog
 
-> Practical, hands-on, no-fluff. A lab journal, not a brag sheet. Newest first.
+> A lab journal, not a brag sheet. Half practitioner notes, half beginner explainers, because teaching a thing is how I find out whether I actually learned it. Newest first.
 
 | Post | What's in it |
 | :-- | :-- |
-| [**Machine-Speed Triage: Compressing MTTR with Claude Code Dynamic Workflows**](https://greg.heffner.live/image/pages/2026/June/AgenticMTTR.html) | SOC triage automation · CISA KEV · MITRE ATT&CK |
-| [**Push the Knowledge Down the Stack: Cheaper Agents Through Skills**](https://greg.heffner.live/image/pages/2026/June/TokensDownTheStack.html) | Token economics · skills · subagents |
-| [**Nessus & Wazuh: Watching the Watchers at Home**](https://greg.heffner.live/image/pages/2026/May/NessusandWazuh.html) | Vuln scanning + SIEM/XDR in a home lab |
-| [**Claude Agents: The 7 Building Blocks**](https://greg.heffner.live/image/pages/2026/May/ClaudeSkills.html) | The pieces an agent system is actually made of |
-| [**Why Claude Code Wanders in Big Repos (And Three Fixes)**](https://greg.heffner.live/image/pages/2026/May/ClaudeBigRepo.html) | Keeping agents on-task in large codebases |
-| [**ActionCheck: The Terminal Dashboard That Knows Your CI/CD**](https://greg.heffner.live/image/pages/2026/Jan/actioncheck.html) | Building a security-focused CI/CD TUI |
+| [**Fable 5 Weekend Projects**](https://greg.heffner.live/blog/fable-5-weekend-projects) | What a new model generation changes in real agent workflows |
+| [**Machine-Speed Triage: Compressing MTTR with Claude Code Dynamic Workflows**](https://greg.heffner.live/blog/machine-speed-triage) | SOC triage automation · CISA KEV · MITRE ATT&CK |
+| [**Push the Knowledge Down the Stack: Cheaper Agents Through Skills**](https://greg.heffner.live/blog/knowledge-down-the-stack) | Token economics · skills · subagents |
+| [**Nessus & Wazuh: Watching the Watchers at Home**](https://greg.heffner.live/blog/nessus-and-wazuh) | Vuln scanning + SIEM/XDR in a home lab · Nessus since retired for Greenbone; the post documents its era |
+| [**Claude Agents: The 7 Building Blocks**](https://greg.heffner.live/blog/claude-agent-building-blocks) | The pieces an agent system is actually made of |
+| [**Why Claude Code Wanders in Big Repos (And Three Fixes)**](https://greg.heffner.live/blog/claude-code-big-repos) | Keeping agents on-task in large codebases |
+| [**ActionCheck: The Terminal Dashboard That Knows Your CI/CD**](https://greg.heffner.live/blog/actioncheck) | Building a security-focused CI/CD TUI |
 
 📖 **[Read the full index →](https://greg.heffner.live/blog.html)**
 
 ---
 
-### Featured repos
+### Repos worth a look
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<a href="https://github.com/gregheffner/audits">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=gregheffner&repo=audits&theme=tokyonight&hide_border=true" alt="audits" />
-</a>
-
-</td>
-<td width="50%" valign="top">
-
-<a href="https://github.com/gregheffner/ansible-collection-ubuntu-patching">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=gregheffner&repo=ansible-collection-ubuntu-patching&theme=tokyonight&hide_border=true" alt="ansible-collection-ubuntu-patching" />
-</a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<a href="https://github.com/gregheffner/ansible-role-k8-maintenance">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=gregheffner&repo=ansible-role-k8-maintenance&theme=tokyonight&hide_border=true" alt="ansible-role-k8-maintenance" />
-</a>
-
-</td>
-<td width="50%" valign="top">
-
-<a href="https://github.com/gregheffner/action-check">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=gregheffner&repo=action-check&theme=tokyonight&hide_border=true" alt="action-check" />
-</a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<a href="https://github.com/gregheffner/claude-skill-builder">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=gregheffner&repo=claude-skill-builder&theme=tokyonight&hide_border=true" alt="claude-skill-builder" />
-</a>
-
-</td>
-<td width="50%" valign="top">
-
-<a href="https://github.com/gregheffner/k8-patchNbounce">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=gregheffner&repo=k8-patchNbounce&theme=tokyonight&hide_border=true" alt="k8-patchNbounce" />
-</a>
-
-</td>
-</tr>
-</table>
-
-#### More worth a look
+*The automation substrate the security work runs on.*
 
 | Repo | What it does |
 | :-- | :-- |
+| [**audits**](https://github.com/gregheffner/audits) | Security/compliance audit scripting |
+| [**ansible-collection-ubuntu-patching**](https://github.com/gregheffner/ansible-collection-ubuntu-patching) | Fleet patching: apt/snap/brew, serial k8s drain-reboot |
+| [**action-check**](https://github.com/gregheffner/action-check) | Security-focused CI/CD terminal dashboard |
+| [**claude-skill-builder**](https://github.com/gregheffner/claude-skill-builder) | Scaffolding Claude Code skills |
+| [**k8-patchNbounce**](https://github.com/gregheffner/k8-patchNbounce) | Patch + bounce Kubernetes nodes safely |
 | [**cicd**](https://github.com/gregheffner/cicd) | Argo CD / GitOps automation for Kubernetes |
-| [**playbooks**](https://github.com/gregheffner/playbooks) | Multi-platform Ansible — Ubuntu, Windows, Kali, macOS |
-| [**ansible-role-windows-update**](https://github.com/gregheffner/ansible-role-windows-update) | Windows Update patching, automated |
+| [**playbooks**](https://github.com/gregheffner/playbooks) | Multi-platform Ansible: Ubuntu, Windows, Kali, macOS |
 | [**k8Backup**](https://github.com/gregheffner/k8Backup) | Back up every Kubernetes resource type |
 
 ---
@@ -179,19 +158,13 @@ The stuff I'm actively building and writing about right now:
 ### Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=gregheffner&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=gregheffner&show_icons=true&theme=tokyonight&hide_border=true" alt="stats" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gregheffner&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="top langs" />
-</p>
-<p align="center">
-  <img height="165" src="https://streak-stats.demolab.com?user=gregheffner&theme=tokyonight&hide_border=true" alt="streak" />
-</p>
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=gregheffner&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" alt="trophies" />
 </p>
 
 ---
 
-<p align="center"><i>Still learning. Still shipping. The plan lives in code — the rest is judgment. :)</i></p>
+<p align="center"><i>Still shipping. Still learning :)</i></p>
 <p align="center">
   <a href="https://greg.heffner.live">website</a> ·
   <a href="https://greg.heffner.live/blog.html">blog</a> ·
