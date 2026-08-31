@@ -63,7 +63,7 @@ CVE lands
 
 ### Where the opinions get tested
 
-The whole loop also runs at home, end to end: **Wazuh SIEM/XDR, Greenbone/OpenVAS, Trivy scanning every container image against CISA KEV daily, Ansible patching, Kubernetes + Argo CD GitOps on ESXi, Cloudflare WAF and Fail2Ban out front.** I'm scanner admin, analyst, patch team, and CAB all at once. Same method as work, nobody else to blame the process on. Running total from the daily KEV scans: zero known-exploited vulnerabilities fleet-wide.
+The whole loop also runs at home, end to end: **Wazuh SIEM/XDR, Greenbone/OpenVAS, Trivy scanning every container image against CISA KEV daily, Ansible patching, Kubernetes + Argo CD GitOps on ESXi, Cloudflare WAF and Fail2Ban out front.** I'm scanner admin, analyst, patch team, and CAB all at once. Same method as work, where the scanners are Rapid7 and Qualys and the tickets live in ServiceNow. Nobody else to blame the process on here, though. Running total from the daily KEV scans: zero known-exploited vulnerabilities fleet-wide.
 
 The lab is where the opinions get tested before they become advice.
 
@@ -74,9 +74,9 @@ The lab is where the opinions get tested before they become advice.
 | Era | What I ran | What it taught me |
 | :-- | :-- | :-- |
 | **Army: network comms** | Tactical networks under field conditions | Comms first, resilience second |
-| **Infrastructure engineering** | Networks, Linux/Windows server fleets, hypervisors, load balancers | How systems actually fail, and where the bodies are buried |
+| **Infrastructure engineering** | Windows Server + RHEL fleets, VMware + Nutanix, load balancers, Active Directory | How systems actually fail, and where the bodies are buried |
 | **Operations leadership** | Disaster recovery, failover design, code-red bridge calls | Calm is a skill; blast radius is a design input; downtime has a dollar sign |
-| **Security: vulnerability management** | Enterprise triage, prioritization, remediation programs | Weigh severity against exposure and what the business can absorb, then make the call |
+| **Security: vulnerability management** | Triage and remediation across big fleets: Rapid7 InsightVM, Qualys, Tanium, CrowdStrike, ServiceNow Vulnerability Response + CMDB | Weigh severity against exposure and what the business can absorb, then make the call |
 | **Now: leading from the keyboard** | Risk-based vuln program, agentic tooling, a team to grow | Stay hands-on, and teach the judgment instead of hoarding it |
 
 ---
@@ -93,7 +93,12 @@ The lab is where the opinions get tested before they become advice.
 **AI & Agents**
 
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![Codex](https://img.shields.io/badge/Codex-000000?style=for-the-badge)
+![Windsurf](https://img.shields.io/badge/Windsurf-0B9E8E?style=for-the-badge&logo=windsurf&logoColor=white)
+![ChatGPT](https://img.shields.io/badge/ChatGPT-74AA9C?style=for-the-badge)
 ![MCP](https://img.shields.io/badge/MCP_servers-6E56CF?style=for-the-badge&logo=modelcontextprotocol&logoColor=white)
+
+**Daily rotation:** dynamic workflows, custom agents, skills. Different tools, same rule: the agent drafts, I hit send.
 
 **Infrastructure & Automation** *(the foundation everything sits on)*
 
@@ -105,7 +110,32 @@ The lab is where the opinions get tested before they become advice.
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
-**Languages:** Python · Bash · PowerShell
+**Languages:** Python · PowerShell · Bash · SQL · SPL (Splunk)
+
+<details>
+<summary><b>The enterprise toolbox</b> · ServiceNow, Splunk, Rapid7, Qualys, Tanium, CrowdStrike, Palo Alto, Active Directory, Azure, and about 60 more from the day jobs</summary>
+
+*The badges above are the daily drivers. The rest of the inventory, grouped by what it does.*
+
+**Observability & reporting** · Splunk + ITSI (dashboards, AD auditing, agent health, alerting), Datadog (APM, dashboards, change tracking), AppDynamics, Zenoss, SolarWinds Orion, NETSCOUT nGeniusONE, LiveNX, Catchpoint, Power BI
+
+**Vulnerability management** · Rapid7 InsightVM, Qualys, Veracode
+
+**Endpoint & EDR** · CrowdStrike Falcon, Tanium, McAfee ePO, Symantec Endpoint Protection
+
+**Network & edge** · Palo Alto (Panorama, AutoFocus, firewall APIs), AlgoSec, Cisco ISE, Cisco Talos, Infoblox Grid Manager, Cradlepoint, Ubiquiti UniFi, Akamai
+
+**Identity, certs & secrets** · Active Directory + Group Policy, Okta, NetIQ Identity Manager + eDirectory, Entrust certificate services, HashiCorp Vault
+
+**Servers & virtualization** · Windows Server, RHEL, VMware vSphere + vCenter + ESXi, Nutanix Prism Central, Ansible Tower, NetBackup OpsCenter, Snow License Manager, IBM ILMT. The whole life of a box: build, patch, back up, test recovery, decommission, hand off. Pager included.
+
+**ITSM & collaboration** · ServiceNow (CMDB, vulnerability response, build/decommission workflows, ticket-routing automation), Jira, Confluence, Bitbucket, SharePoint, AuditBoard
+
+**Cloud** · AWS, Azure
+
+**Glue** · REST + vendor API integrations, JavaScript + DataviewJS, YAML/JSON/TOML, automated reporting
+
+</details>
 
 ---
 
