@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="168" viewBox="0 0 300 168" role="img" aria-label="Most Used Languages">
+<title>Most Used Languages</title>
+<style>
+.t{font:600 18px 'Segoe UI',Ubuntu,Sans-Serif;fill:#70a5fd}
+.l{font:600 14px 'Segoe UI',Ubuntu,Sans-Serif;fill:#38bdae}
+.v{font:700 14px 'Segoe UI',Ubuntu,Sans-Serif;fill:#38bdae}
+.s{font:400 11px 'Segoe UI',Ubuntu,Sans-Serif;fill:#a9b1d6}
+</style>
+<rect width="300" height="168" rx="4.5" fill="#1a1b27"/>
+<text x="25" y="35" class="t">Most Used Languages</text>
+<clipPath id="c"><rect x="25" y="50" width="250" height="8" rx="4"/></clipPath><g clip-path="url(#c)"><rect x="25.00" y="50" width="134.43" height="8" fill="#89e051"/><rect x="159.43" y="50" width="50.67" height="8" fill="#f1e05a"/><rect x="210.09" y="50" width="49.57" height="8" fill="#3572A5"/><rect x="259.66" y="50" width="8.42" height="8" fill="#663399"/><rect x="268.09" y="50" width="3.90" height="8" fill="#e34c26"/><rect x="271.99" y="50" width="2.07" height="8" fill="#384d54"/><rect x="274.06" y="50" width="0.74" height="8" fill="#701516"/><rect x="274.79" y="50" width="0.21" height="8" fill="#3178c6"/></g>
+<circle cx="30" cy="76" r="5" fill="#89e051"/><text x="40" y="80" class="s" style="font-size:12px">Shell 53.8%</text>
+<circle cx="160" cy="76" r="5" fill="#f1e05a"/><text x="170" y="80" class="s" style="font-size:12px">JavaScript 20.3%</text>
+<circle cx="30" cy="98" r="5" fill="#3572A5"/><text x="40" y="102" class="s" style="font-size:12px">Python 19.8%</text>
+<circle cx="160" cy="98" r="5" fill="#663399"/><text x="170" y="102" class="s" style="font-size:12px">CSS 3.4%</text>
+<circle cx="30" cy="120" r="5" fill="#e34c26"/><text x="40" y="124" class="s" style="font-size:12px">HTML 1.6%</text>
+<circle cx="160" cy="120" r="5" fill="#384d54"/><text x="170" y="124" class="s" style="font-size:12px">Dockerfile 0.8%</text>
+<circle cx="30" cy="142" r="5" fill="#701516"/><text x="40" y="146" class="s" style="font-size:12px">Ruby 0.3%</text>
+<circle cx="160" cy="142" r="5" fill="#3178c6"/><text x="170" y="146" class="s" style="font-size:12px">TypeScript 0.1%</text>
+</svg>

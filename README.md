@@ -65,6 +65,8 @@ CVE lands
 
 The whole loop also runs at home, end to end: **Wazuh SIEM/XDR, Greenbone/OpenVAS, Trivy scanning every container image against CISA KEV daily, Ansible patching, Kubernetes + Argo CD GitOps on ESXi, Cloudflare WAF and Fail2Ban out front.** I'm scanner admin, analyst, patch team, and CAB all at once. Same method as work, where the scanners are Rapid7 and Qualys and the tickets live in ServiceNow. Nobody else to blame the process on here, though. Running total from the daily KEV scans: zero known-exploited vulnerabilities fleet-wide.
 
+This fall the focus moved inside the fence. Pod traffic now rides WireGuard, the hosts talk over a Headscale mesh, and the backups are encrypted at rest. The Kubernetes and Ubuntu CIS benchmarks went on in phases, with a weekly kube-bench drift check feeding Wazuh and Falco watching runtime on every node. Where I said no to a CIS control, the reason is written down next to it. Forty of those so far.
+
 The lab is where the opinions get tested before they become advice.
 
 ---
@@ -147,24 +149,52 @@ The lab is where the opinions get tested before they become advice.
 | **Cheaper agents** | Pushing knowledge *down the stack* into skills and subagents so the expensive model only runs on judgment. *Tokens are money.* |
 | **MCP everywhere** | Scanners, SIEM, dashboards and ticketing wired into agents over Model Context Protocol, so context comes to the model instead of me copy-pasting it. |
 | **False-positive economics** | A finding that isn't real still costs analyst time. One raw lab scan: **74% false positives, every single "critical" included**, mostly backport-blind version matching. Building classification that proves what's actually running before anything pages a human. |
+| **Encrypt the inside** | The perimeter got the attention for years. Now every hop inside the lab is encrypted too: WireGuard under the pod network, a Headscale mesh between hosts, encrypted backups. [How it went](https://greg.heffner.live/blog/encrypting-everything-inside-the-homelab). |
 
 ---
 
 ### From the blog
 
-> A lab journal, not a brag sheet. Half practitioner notes, half beginner explainers, because teaching a thing is how I find out whether I actually learned it. Newest first.
+> A lab journal, not a brag sheet. Half practitioner notes, half beginner explainers, because teaching a thing is how I find out whether I actually learned it.
+
+**Start here**
 
 | Post | What's in it |
 | :-- | :-- |
-| [**Fable 5 Weekend Projects**](https://greg.heffner.live/blog/fable-5-weekend-projects) | What a new model generation changes in real agent workflows |
 | [**Machine-Speed Triage: Compressing MTTR with Claude Code Dynamic Workflows**](https://greg.heffner.live/blog/machine-speed-triage) | SOC triage automation · CISA KEV · MITRE ATT&CK |
 | [**Push the Knowledge Down the Stack: Cheaper Agents Through Skills**](https://greg.heffner.live/blog/knowledge-down-the-stack) | Token economics · skills · subagents |
 | [**Nessus & Wazuh: Watching the Watchers at Home**](https://greg.heffner.live/blog/nessus-and-wazuh) | Vuln scanning + SIEM/XDR in a home lab · Nessus since retired for Greenbone; the post documents its era |
-| [**Claude Agents: The 7 Building Blocks**](https://greg.heffner.live/blog/claude-agent-building-blocks) | The pieces an agent system is actually made of |
-| [**Why Claude Code Wanders in Big Repos (And Three Fixes)**](https://greg.heffner.live/blog/claude-code-big-repos) | Keeping agents on-task in large codebases |
-| [**ActionCheck: The Terminal Dashboard That Knows Your CI/CD**](https://greg.heffner.live/blog/actioncheck) | Building a security-focused CI/CD TUI |
+
+**Latest** *(updated automatically from the blog)*
+
+<!-- BLOG:START -->
+| Date | Post |
+| :-- | :-- |
+| 2026-09-18 | [**Encrypting Everything Inside the Homelab**](https://greg.heffner.live/blog/encrypting-everything-inside-the-homelab) |
+| 2026-09-04 | [**I Let Fable 5.1 Audit My Cluster. Here Is What It Found.**](https://greg.heffner.live/blog/fable-5-1-audited-my-cluster) |
+| 2026-08-31 | [**The Fix Wasn't a Patch**](https://greg.heffner.live/blog/the-fix-wasnt-a-patch) |
+| 2026-08-16 | [**Automate Your Life: Letting AI Handle Email, Texts, and Calendars on Your Mac**](https://greg.heffner.live/blog/automate-your-life-with-ai) |
+| 2026-07-22 | [**Hacker Summer Camp 2026: This Time the Robots Are Invited**](https://greg.heffner.live/blog/hacker-summer-camp-2026) |
+<!-- BLOG:END -->
 
 📖 **[Read the full index →](https://greg.heffner.live/blog.html)**
+
+---
+
+### Recently shipped
+
+*Pulled automatically from merged pull requests. The homelab runs on GitOps, so this is the change log.*
+
+<!-- SHIPPED:START -->
+| Merged | Repo | Change |
+| :-- | :-- | :-- |
+| 2026-09-29 | cicd | [mustangmafia: publish Discord member/online counts for the site card](https://github.com/gregheffner/cicd/pull/193) |
+| 2026-09-28 | cicd | [mustangmafia: Discord invite redirect + website events sync from Discord](https://github.com/gregheffner/cicd/pull/192) |
+| 2026-09-27 | cicd | [ci: fix the two workflows that failed silently since 2026-09-07](https://github.com/gregheffner/cicd/pull/191) |
+| 2026-09-27 | cicd | [argocd: requests/limits for all 7 workloads, sized from 14 days of Datadog](https://github.com/gregheffner/cicd/pull/190) |
+| 2026-09-27 | cicd | [metrics-server: memory limit 256Mi (14-day peak 87Mi)](https://github.com/gregheffner/cicd/pull/189) |
+| 2026-09-27 | cicd | [metrics-server, kubelet-csr-approver: automated sync (selfHeal, no prune)](https://github.com/gregheffner/cicd/pull/188) |
+<!-- SHIPPED:END -->
 
 ---
 
@@ -188,8 +218,8 @@ The lab is where the opinions get tested before they become advice.
 ### Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=gregheffner&show_icons=true&theme=tokyonight&hide_border=true" alt="stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gregheffner&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="top langs" />
+  <img height="165" src="stats/overview.svg" alt="GitHub stats" />
+  <img height="165" src="stats/languages.svg" alt="Most used languages" />
 </p>
 
 ---
