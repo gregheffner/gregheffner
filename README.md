@@ -188,12 +188,12 @@ The lab is where the opinions get tested before they become advice.
 <!-- SHIPPED:START -->
 | Merged | Repo | Change |
 | :-- | :-- | :-- |
+| 2026-10-04 | cicd | [mustangmafia: never cache /assets/ error responses](https://github.com/gregheffner/cicd/pull/194) |
 | 2026-09-29 | cicd | [mustangmafia: publish Discord member/online counts for the site card](https://github.com/gregheffner/cicd/pull/193) |
 | 2026-09-28 | cicd | [mustangmafia: Discord invite redirect + website events sync from Discord](https://github.com/gregheffner/cicd/pull/192) |
 | 2026-09-27 | cicd | [ci: fix the two workflows that failed silently since 2026-09-07](https://github.com/gregheffner/cicd/pull/191) |
 | 2026-09-27 | cicd | [argocd: requests/limits for all 7 workloads, sized from 14 days of Datadog](https://github.com/gregheffner/cicd/pull/190) |
 | 2026-09-27 | cicd | [metrics-server: memory limit 256Mi (14-day peak 87Mi)](https://github.com/gregheffner/cicd/pull/189) |
-| 2026-09-27 | cicd | [metrics-server, kubelet-csr-approver: automated sync (selfHeal, no prune)](https://github.com/gregheffner/cicd/pull/188) |
 <!-- SHIPPED:END -->
 
 ---

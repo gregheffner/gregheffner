@@ -9,8 +9,8 @@
 <rect width="340" height="195" rx="4.5" fill="#1a1b27"/>
 <text x="25" y="35" class="t">Greg Heffner&#x27;s GitHub Stats</text>
 <circle cx="31" cy="65" r="4" fill="#bf91f3"/><text x="45" y="70" class="l">Total Stars Earned:</text><text x="230" y="70" class="v">20</text>
-<circle cx="31" cy="90" r="4" fill="#bf91f3"/><text x="45" y="95" class="l">Commits (2026):</text><text x="230" y="95" class="v">361</text>
-<circle cx="31" cy="115" r="4" fill="#bf91f3"/><text x="45" y="120" class="l">Total PRs:</text><text x="230" y="120" class="v">186</text>
+<circle cx="31" cy="90" r="4" fill="#bf91f3"/><text x="45" y="95" class="l">Commits (2026):</text><text x="230" y="95" class="v">363</text>
+<circle cx="31" cy="115" r="4" fill="#bf91f3"/><text x="45" y="120" class="l">Total PRs:</text><text x="230" y="120" class="v">187</text>
 <circle cx="31" cy="140" r="4" fill="#bf91f3"/><text x="45" y="145" class="l">Public Repos:</text><text x="230" y="145" class="v">26</text>
 <circle cx="31" cy="165" r="4" fill="#bf91f3"/><text x="45" y="170" class="l">On GitHub Since:</text><text x="230" y="170" class="v">2017</text>
 </svg>
