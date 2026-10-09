@@ -188,12 +188,12 @@ The lab is where the opinions get tested before they become advice.
 <!-- SHIPPED:START -->
 | Merged | Repo | Change |
 | :-- | :-- | :-- |
+| 2026-10-09 | cicd | [cloudflared: drop watch/maintain routes (moved to bastion tunnel)](https://github.com/gregheffner/cicd/pull/204) |
+| 2026-10-09 | cicd | [nginx: trust CF-Connecting-IP only with the CF edge secret (fail2ban poisoning fix, part 2)](https://github.com/gregheffner/cicd/pull/203) |
+| 2026-10-09 | cicd | [external-secrets: nginx-origin-auth Secret (fail2ban poisoning fix, part 1)](https://github.com/gregheffner/cicd/pull/202) |
+| 2026-10-09 | cicd | [cloudflared: remove view.heffner.live (go2rtc retired)](https://github.com/gregheffner/cicd/pull/201) |
 | 2026-10-04 | cicd | [mustangmafia: Tech-created Discord events publish to the website](https://github.com/gregheffner/cicd/pull/199) |
 | 2026-10-04 | cicd | [mustangmafia: drop ControlD MIA proxy lines at the Datadog agent](https://github.com/gregheffner/cicd/pull/198) |
-| 2026-10-04 | cicd | [mustangmafia: git-sync poll 5 min -> 1 h](https://github.com/gregheffner/cicd/pull/197) |
-| 2026-10-04 | cicd | [soak-gate: break the auto-rebuild / ledger-guard deadlock](https://github.com/gregheffner/cicd/pull/196) |
-| 2026-10-04 | cicd | [mustangmafia: never cache /assets/ error responses](https://github.com/gregheffner/cicd/pull/194) |
-| 2026-09-29 | cicd | [mustangmafia: publish Discord member/online counts for the site card](https://github.com/gregheffner/cicd/pull/193) |
 <!-- SHIPPED:END -->
 
 ---
