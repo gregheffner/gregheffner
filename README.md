@@ -188,12 +188,12 @@ The lab is where the opinions get tested before they become advice.
 <!-- SHIPPED:START -->
 | Merged | Repo | Change |
 | :-- | :-- | :-- |
+| 2026-10-31 | cicd | [fix(radar): bump body-parser 2.3.0 -> 2.4.0 (CVE-2026-111181)](https://github.com/gregheffner/cicd/pull/215) |
 | 2026-10-23 | cicd | [argocd: repo-server trusts only the fixed CA bundle (eMudhra CVE-2026-111943)](https://github.com/gregheffner/cicd/pull/212) |
 | 2026-10-23 | cicd | [external-secrets: controller trusts only the fixed CA bundle (eMudhra CVE-2026-111943)](https://github.com/gregheffner/cicd/pull/211) |
 | 2026-10-22 | cicd | [nodelocaldns: mount the fixed CA bundle over /etc/ssl/certs (eMudhra CVE-2026-111943)](https://github.com/gregheffner/cicd/pull/210) |
 | 2026-10-21 | cicd | [fix(radar): move base image to node:24.22.1-alpine (Node 20 EOL, Oct 2026 Node.js security release)](https://github.com/gregheffner/cicd/pull/209) |
 | 2026-10-19 | cicd | [fix(radar): bump proxy-addr to 2.0.8 (CVE-2026-90711)](https://github.com/gregheffner/cicd/pull/208) |
-| 2026-10-10 | cicd | [fix(eso): raise controller memory limit 384Mi -> 768Mi, add GOMEMLIMIT](https://github.com/gregheffner/cicd/pull/206) |
 <!-- SHIPPED:END -->
 
 ---
