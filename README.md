@@ -170,11 +170,11 @@ The lab is where the opinions get tested before they become advice.
 <!-- BLOG:START -->
 | Date | Post |
 | :-- | :-- |
+| 2026-11-23 | [**Hosting LLMs on My M5 Max: oMLX, OpenCode, and a 4-bit Qwen**](https://greg.heffner.live/blog/hosting-llms-on-my-m5-max) |
 | 2026-09-18 | [**Encrypting Everything Inside the Homelab**](https://greg.heffner.live/blog/encrypting-everything-inside-the-homelab) |
 | 2026-09-04 | [**I Let Fable 5.1 Audit My Cluster. Here Is What It Found.**](https://greg.heffner.live/blog/fable-5-1-audited-my-cluster) |
 | 2026-08-31 | [**The Fix Wasn't a Patch**](https://greg.heffner.live/blog/the-fix-wasnt-a-patch) |
 | 2026-08-16 | [**Automate Your Life: Letting AI Handle Email, Texts, and Calendars on Your Mac**](https://greg.heffner.live/blog/automate-your-life-with-ai) |
-| 2026-07-22 | [**Hacker Summer Camp 2026: This Time the Robots Are Invited**](https://greg.heffner.live/blog/hacker-summer-camp-2026) |
 <!-- BLOG:END -->
 
 📖 **[Read the full index →](https://greg.heffner.live/blog.html)**
@@ -188,12 +188,12 @@ The lab is where the opinions get tested before they become advice.
 <!-- SHIPPED:START -->
 | Merged | Repo | Change |
 | :-- | :-- | :-- |
+| 2026-11-23 | cicd | [Add Article50: Hosting LLMs on My M5 Max (oMLX, OpenCode, 4-bit Qwen)](https://github.com/gregheffner/cicd/pull/218) |
 | 2026-11-21 | cicd | [falco: pin chart 9.2.2 (modern_ebpf) - restore detection on kernel 6.8.0-151](https://github.com/gregheffner/cicd/pull/217) |
 | 2026-10-31 | cicd | [fix(radar): bump body-parser 2.3.0 -> 2.4.0 (CVE-2026-111181)](https://github.com/gregheffner/cicd/pull/215) |
 | 2026-10-23 | cicd | [argocd: repo-server trusts only the fixed CA bundle (eMudhra CVE-2026-111943)](https://github.com/gregheffner/cicd/pull/212) |
 | 2026-10-23 | cicd | [external-secrets: controller trusts only the fixed CA bundle (eMudhra CVE-2026-111943)](https://github.com/gregheffner/cicd/pull/211) |
 | 2026-10-22 | cicd | [nodelocaldns: mount the fixed CA bundle over /etc/ssl/certs (eMudhra CVE-2026-111943)](https://github.com/gregheffner/cicd/pull/210) |
-| 2026-10-21 | cicd | [fix(radar): move base image to node:24.22.1-alpine (Node 20 EOL, Oct 2026 Node.js security release)](https://github.com/gregheffner/cicd/pull/209) |
 <!-- SHIPPED:END -->
 
 ---
